@@ -1,0 +1,29 @@
+* {
+     font-family: 'Urbanist', sans-serif;
+}
+
+.logoctn1 {
+     visibility: visible;
+}
+
+.logonavbarresponsive {
+          width:20%;
+     }
+
+.fpembayaranmudah {
+     font-size: 70px; color:#A90000
+}
+
+@media only screen and (max-width: 990px) {
+     .fpembayaranmudah {
+     font-size: 30px; color:#A90000
+     }
+
+     .logonavbarresponsive {
+          width:50%;
+     }
+     .logoctn1 {
+          visibility: hidden;
+          display: none;
+     }
+}
